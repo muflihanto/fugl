@@ -177,6 +177,7 @@ for i in range(300):
   acc_datatr_final.append(sum_acc_datatr/5)
   acc_valid_final.append(sum_acc_valid/5)
 
+#create plot figure
 plt.figure(1, figsize=(6,6))
 plt.plot(acc_datatr_final,'r-', label='training', linewidth=2)
 plt.plot(acc_valid_final,'b-', label='validasi', linewidth=2)
